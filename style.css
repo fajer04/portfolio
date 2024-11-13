@@ -49,6 +49,14 @@ h3 {
 }
 
 
+.logo{
+    width: 25vw;        
+    height: 25vw;
+    max-width: 80px;    
+    max-height: 80px;
+}
+
+
 .circle {
     width: 25vw;        
     height: 25vw;
