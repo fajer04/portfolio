@@ -105,6 +105,10 @@ h3 {
     .center-desktop{
         align-items: centerg;
     }
+
+    .start-desktop{
+        align-items: start;
+    }
     
   }
 
