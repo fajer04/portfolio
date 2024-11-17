@@ -94,6 +94,10 @@ h3 {
         justify-content: center;
     }
 
+    .start-desktop{
+        align-items: center !important; 
+    }
+
   }
 
 /* **** */
@@ -103,7 +107,7 @@ h3 {
     }
 
     .center-desktop{
-        align-items: centerg;
+        align-items: center;
     }
 
     .start-desktop{
