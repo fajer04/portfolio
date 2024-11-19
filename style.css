@@ -116,4 +116,24 @@ h3 {
     
   }
 
+
+
+
+  #form-message {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+
+
+
+  .bg-body-tertiary {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+  }
   
