@@ -11,7 +11,7 @@
 <body class="bg-body-tertiary">
 
   <!-- **container Navbar** -->
-  <div class="container p-2">
+  <div class="container p-2 bg-body-tertiary" id="nav">
     <div class="d-flex justify-content-between">
         <div class="h3">
           <img src="/images/Logo.svg" alt="" class="logo">
@@ -32,10 +32,10 @@
 
             
               <!-- **ToggleSwitch** -->
-              <div class="form-check form-switch desktop-none">
+              <!-- <div class="form-check form-switch desktop-none">
                 <input class="form-check-input" type="checkbox" role="switch" id="themeToggleSwitch">
                 <label class="form-check-label" for="themeToggleSwitch"></label>
-              </div>
+              </div> -->
 
                <!-- **Offcanvas icon** -->
               <button class="btn btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
@@ -53,10 +53,10 @@
         </div>
         <div class="offcanvas-body">
             <ul class="navbar-nav">
-              <div class="form-check form-switch">
+              <!-- <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="themeToggleSwitch">
                 <label class="form-check-label" for="themeToggleSwitch"></label>
-              </div> 
+              </div>  -->
                 <li class="nav-item">
                     <a class="nav-link" href="/resume.html"><h5><b><i class="bi bi-person"></i> Resume</b></h5></a>
                 </li>
@@ -112,7 +112,7 @@
                 <textarea class="form-control" id="message" name="message" rows="4"></textarea>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-warning w-100">Submit</button>
+              <button type="submit" class="btn bg-black w-100">Submit</button>
             </div>
             </form>
           </div>
@@ -199,20 +199,26 @@
 
   
   // **toggleSwitch**
-  const toggleSwitch = document.getElementById('themeToggleSwitch');
+  // const toggleSwitch = document.getElementById('themeToggleSwitch');
+  // const bg_nav = document.getElementById('nav');
 
 // Add event listener to the toggle switch
-toggleSwitch.addEventListener('change', function () {
-      if (this.checked) {
+// toggleSwitch.addEventListener('change', function () {
+//       if (this.checked) {
         // Enable Dark Mode
-        document.body.classList.add('dark-mode');
-        document.body.classList.remove('bg-body-tertiary');
-      } else {
+      //   document.body.classList.add('dark-mode');
+      //   document.body.classList.remove('bg-body-tertiary');
+      //   bg_nav.classList.add('dark-mode');
+      //   bg_nav.classList.remove('bg-body-tertiary');
+
+      // } else {
         // Enable Light Mode
-        document.body.classList.add('bg-body-tertiary');
-        document.body.classList.remove('dark-mode');
-      }
-    });
+    //     document.body.classList.add('bg-body-tertiary');
+    //     document.body.classList.remove('dark-mode');
+    //     bg_nav.classList.add('bg-body-tertiary');
+    //     bg_nav.classList.remove('dark-mode');
+    //   }
+    // });
 </script>
 
 <script src="js.js" type="javascript"></script>

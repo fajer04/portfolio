@@ -37,6 +37,11 @@ h3 {
     border: 1px solid #361557;
 }
 
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
 
 
 
@@ -127,13 +132,14 @@ h3 {
 
 
 
-  .bg-body-tertiary {
+  /* .bg-body-tertiary {
     background-color: #ffffff;
     color: #000000;
+    
   }
 
   .dark-mode {
     background-color: #000000;
     color: #ffffff;
   }
-  
+   */
